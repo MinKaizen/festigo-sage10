@@ -25,6 +25,10 @@
   },
   "repositories": [
     {
+			"type": "composer",
+			"url": "https://satis.festigotravel.com.au/satispress/"
+		},
+    {
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
