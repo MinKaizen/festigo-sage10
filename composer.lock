@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fff59d57bf88f12e968baa2d1425a4e7",
+    "content-hash": "e1d6cc6b7c62a43589764f5b84d3748c",
     "packages": [
         {
             "name": "brick/math",
@@ -3141,6 +3141,25 @@
             },
             "description": "A collection of modules to apply theme-agnostic front-end modifications to WordPress.",
             "homepage": "https://roots.io/plugins/soil/"
+        },
+        {
+            "name": "satisfestigo/wp-migrate-db-pro",
+            "version": "2.6.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://satis.festigotravel.com.au/satispress/wp-migrate-db-pro/2.6.1",
+                "shasum": "661f37ba29061ee6cae756909df4ec81fdb89940"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "WP Engine",
+                "homepage": "https://deliciousbrains.com"
+            },
+            "description": "Migrate between any two environments. Push, pull, and export full sites. Find and replace content including serialized data. Import and back up the database.",
+            "homepage": "https://deliciousbrains.com/wp-migrate-db-pro/"
         },
         {
             "name": "symfony/console",
