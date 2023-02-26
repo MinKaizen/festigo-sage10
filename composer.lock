@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "272e4034311d3eca0819bd5322c62d2a",
+    "content-hash": "c3d68fb68fd3987b8bfc418b1e3fc88f",
     "packages": [
         {
             "name": "brick/math",
@@ -5146,6 +5146,24 @@
                 }
             ],
             "time": "2022-03-08T17:03:00+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "7.4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/7.4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.7.4.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
         },
         {
             "name": "wpackagist-theme/twentytwentythree",
