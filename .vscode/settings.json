@@ -1,0 +1,11 @@
+{
+    "[blade]": {
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "[php]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "valeryanm.vscode-phpsab"
+    },
+}

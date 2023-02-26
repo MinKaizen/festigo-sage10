@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Listen for XDebug (site)",
+            "type": "php",
+            "request": "launch",
+            "pathMappings": {
+                "/srv/www/festigotrellis.com/current": "${workspaceRoot}/"
+            },
+            "ignore": [
+                "**/vendor/**/*"
+            ],
+            "port": 9003
+        }
+    ]
+}
