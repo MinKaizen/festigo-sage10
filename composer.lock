@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2436d54cf1bc36495904c4f1e1de56f7",
+    "content-hash": "fff59d57bf88f12e968baa2d1425a4e7",
     "packages": [
         {
             "name": "brick/math",
@@ -3122,6 +3122,25 @@
             },
             "description": "Easily create web forms and manage form entries within the WordPress admin.",
             "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "satisfestigo/soil",
+            "version": "4.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://satis.festigotravel.com.au/satispress/soil/4.1.1",
+                "shasum": "88b5c7a8b7ebdca70ea0d3cb067baff3f4c4f5c4"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Roots",
+                "homepage": "https://roots.io/"
+            },
+            "description": "A collection of modules to apply theme-agnostic front-end modifications to WordPress.",
+            "homepage": "https://roots.io/plugins/soil/"
         },
         {
             "name": "symfony/console",
