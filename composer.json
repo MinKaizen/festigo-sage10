@@ -52,7 +52,8 @@
     "wpackagist-plugin/wp-mail-smtp": "^3.7",
     "generoi/sage-woocommerce": "^1.0",
     "wpackagist-plugin/wp-nonstop-smushit": "^2.0",
-    "satisfestigo/advanced-custom-fields-pro": "^6.0"
+    "satisfestigo/advanced-custom-fields-pro": "^6.0",
+    "satisfestigo/gravityforms": "2.7.1.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
