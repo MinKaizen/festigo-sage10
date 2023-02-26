@@ -34,13 +34,14 @@ export default async (app) => {
      * Proxy origin (`WP_HOME`)
      * @see {@link https://bud.js.org/docs/bud.proxy/}
      */
-    .proxy('http://example.test')
+    .proxy('https://festigotrellis.test')
 
-    /**
-     * Development origin
-     * @see {@link https://bud.js.org/docs/bud.serve/}
-     */
-    .serve('http://localhost:3000')
+    // /**
+    //  * Development origin
+    //  * @see {@link https://bud.js.org/docs/bud.serve/}
+    //  * Using trellis? Comment this line out
+    //  */
+    // .serve('http://localhost:3000')
 
     /**
      * URI of the `public` directory
