@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc7b1916277bc168b993b7d51ff2cabd",
+    "content-hash": "d85433997d24437b188974f8eb1e3870",
     "packages": [
         {
             "name": "brick/math",
@@ -3084,6 +3084,25 @@
                 }
             ],
             "time": "2021-10-31T01:18:58+00:00"
+        },
+        {
+            "name": "satisfestigo/advanced-custom-fields-pro",
+            "version": "6.0.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://satis.festigotravel.com.au/satispress/advanced-custom-fields-pro/6.0.7",
+                "shasum": "27d47f870f9f6742c26b67d5ddc7419a5b5cfedb"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "WP Engine",
+                "homepage": "https://wpengine.com/?utm_source=wordpress.org&#038;utm_medium=referral&#038;utm_campaign=plugin_directory&#038;utm_content=advanced_custom_fields"
+            },
+            "description": "Customize WordPress with powerful, professional and intuitive fields.",
+            "homepage": "https://www.advancedcustomfields.com"
         },
         {
             "name": "symfony/console",
