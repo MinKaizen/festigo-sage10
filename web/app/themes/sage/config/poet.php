@@ -167,7 +167,9 @@ return [
     */
 
     'admin_menu' => [
-        // 'gutenberg',
+        'edit-comments.php',
+        'themes.php',
+        'edit.php',
     ],
 
 ];
