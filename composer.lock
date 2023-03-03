@@ -3394,11 +3394,11 @@
         },
         {
             "name": "satisfestigo/wp-migrate-db-pro",
-            "version": "2.6.1",
+            "version": "2.6.3",
             "dist": {
                 "type": "zip",
-                "url": "https://satis.festigotravel.com.au/satispress/wp-migrate-db-pro/2.6.1",
-                "shasum": "661f37ba29061ee6cae756909df4ec81fdb89940"
+                "url": "https://satis.festigotravel.com.au/satispress/wp-migrate-db-pro/2.6.3",
+                "shasum": "03c5feaa9a30228fa1cb7cbd6494b2263b169b6e"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
