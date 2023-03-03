@@ -13,17 +13,81 @@ return [
     */
 
     'post' => [
-        // 'book' => [
-        //     'enter_title_here' => 'Enter book title',
-        //     'menu_icon' => 'dashicons-book-alt',
-        //     'supports' => ['title', 'editor', 'author', 'revisions', 'thumbnail'],
-        //     'show_in_rest' => true,
-        //     'has_archive' => false,
-        //     'labels' => [
-        //         'singular' => 'Book',
-        //         'plural' => 'Books',
-        //     ],
-        // ],
+        'article' => [
+            'labels' => [
+                'singular' => 'Article',
+                'plural' => 'Articles',
+            ],
+            'public' => true,
+            'has_archive' => 'articles',
+            'menu_position' => 8,
+            'rewrite' => ['slug' => 'article', 'with_front' => true],
+            'menu_icon' => 'dashicons-format-aside',
+            "supports" => ["title", "editor", "thumbnail", "excerpt", "custom-fields", "comments"],
+        ],
+        'artist' => [
+            'labels' => [
+                'singular' => 'Artist',
+                'plural' => 'Artists',
+            ],
+            'public' => true,
+            'has_archive' => 'artists',
+            'menu_position' => 8,
+            'rewrite' => ['slug' => 'artist', 'with_front' => true],
+            'menu_icon' => 'dashicons-microphone',
+            'supports' => ['title', 'editor', 'thumbnail', 'custom-fields'],
+            'taxonomies' => ['genre'],
+        ],
+        'club_event' => [
+            'labels' => [
+                'singular' => 'Club Event',
+                'plural' => 'Club Events',
+            ],
+            'public' => true,
+            'has_archive' => 'club-events',
+            'menu_position' => 8,
+            'rewrite' => ['slug' => 'club_event', 'with_front' => true],
+            'menu_icon' => 'dashicons-tickets-alt',
+            'supports' => ['title', 'editor', 'thumbnail', 'custom-fields'],
+            'taxonomies' => ['music_group', 'genre'],
+        ],
+        'festival' => [
+            'labels' => [
+                'singular' => 'Festival',
+                'plural' => 'Festivals',
+            ],
+            'public' => true,
+            'has_archive' => 'festivals',
+            'menu_position' => 8,
+            'rewrite' => ['slug' => 'festival', 'with_front' => true],
+            'menu_icon' => 'dashicons-tickets-alt',
+            'supports' => ['title', 'editor', 'thumbnail', 'custom-fields'],
+            'taxonomies' => ['music_group', 'genre'],
+        ],
+        'testimonial' => [
+            'labels' => [
+                'singular' => 'Tetimonial',
+                'plural' => 'Tetimonials',
+            ],
+            'public' => true,
+            'has_archive' => false,
+            'menu_position' => 8,
+            'rewrite' => ['slug' => 'testimonial', 'with_front' => true],
+            'menu_icon' => 'dashicons-format-quote',
+            'supports' => ['title', 'thumbnail', 'custom-fields'],
+        ],
+        'tour' => [
+            'labels' => [
+                'singular' => 'Tour',
+                'plural' => 'Tours',
+            ],
+            'public' => true,
+            'has_archive' => 'tours',
+            'menu_position' => 8,
+            'rewrite' => [ 'slug' => 'tour', 'with_front' => true ],
+            'menu_icon' => 'dashicons-tickets-alt',
+            'supports' => [ 'title', 'editor', 'thumbnail' ],
+        ]
     ],
 
     /*
