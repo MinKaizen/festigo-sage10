@@ -101,10 +101,12 @@ return [
     */
 
     'taxonomy' => [
-        // 'genre' => [
-        //     'links' => ['book'],
-        //     'meta_box' => 'radio',
-        // ],
+        'music_group' => [
+            'links' => ['festival', 'club_event'],
+        ],
+        'genre' => [
+            'links' => ['festival', 'club_event', 'artist'],
+        ],
     ],
 
     /*
