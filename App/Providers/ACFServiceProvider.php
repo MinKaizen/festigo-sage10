@@ -23,9 +23,5 @@ class ACFServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        add_action('init', function () {
-            echo 'This it eh ACC Service provider';
-            die;
-        });
     }
 }
