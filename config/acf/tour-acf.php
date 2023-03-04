@@ -1,0 +1,102 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    'key' => 'group_6399518ba8a8b',
+    'title' => 'Tour Fields',
+    'fields' => array(
+        array(
+            'key' => 'field_6399518cbfdee',
+            'label' => 'Date',
+            'name' => 'date',
+            'aria-label' => '',
+            'type' => 'date_picker',
+            'instructions' => '',
+            'required' => 1,
+            'conditional_logic' => 0,
+            'wrapper' => array(
+                'width' => '',
+                'class' => '',
+                'id' => '',
+            ),
+            'display_format' => 'j F Y',
+            'return_format' => 'Y-m-d',
+            'first_day' => 1,
+        ),
+        array(
+            'key' => 'field_639951b8bfdef',
+            'label' => 'Location',
+            'name' => 'location',
+            'aria-label' => '',
+            'type' => 'text',
+            'instructions' => '',
+            'required' => 1,
+            'conditional_logic' => 0,
+            'wrapper' => array(
+                'width' => '',
+                'class' => '',
+                'id' => '',
+            ),
+            'default_value' => '',
+            'maxlength' => '',
+            'placeholder' => 'E.g. "Regatta Center"',
+            'prepend' => '',
+            'append' => '',
+        ),
+        array(
+            'key' => 'field_639951dfbfdf0',
+            'label' => 'Packages',
+            'name' => 'packages',
+            'aria-label' => '',
+            'type' => 'post_object',
+            'instructions' => '',
+            'required' => 0,
+            'conditional_logic' => 0,
+            'wrapper' => array(
+                'width' => '',
+                'class' => '',
+                'id' => '',
+            ),
+            'post_type' => array(
+                0 => 'product',
+            ),
+            'taxonomy' => array(
+                0 => 'product_cat:package',
+            ),
+            'return_format' => 'id',
+            'multiple' => 1,
+            'allow_null' => 0,
+            'ui' => 1,
+        ),
+    ),
+    'location' => array(
+        array(
+            array(
+                'param' => 'post_type',
+                'operator' => '==',
+                'value' => 'tour',
+            ),
+        ),
+    ),
+    'menu_order' => 0,
+    'position' => 'acf_after_title',
+    'style' => 'seamless',
+    'label_placement' => 'left',
+    'instruction_placement' => 'field',
+    'hide_on_screen' => array(
+        0 => 'excerpt',
+        1 => 'discussion',
+        2 => 'comments',
+        3 => 'revisions',
+        4 => 'author',
+        5 => 'format',
+        6 => 'page_attributes',
+        7 => 'categories',
+        8 => 'tags',
+        9 => 'send-trackbacks',
+    ),
+    'active' => true,
+    'description' => '',
+    'show_in_rest' => 0,
+];
