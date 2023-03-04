@@ -87,7 +87,8 @@
     },
     "acorn": {
       "providers": [
-        "App\\Providers\\ACFServiceProvider"
+        "App\\Providers\\ACFServiceProvider",
+        "App\\Providers\\ActionServiceProvider"
       ]
     },
     "wordpress-install-dir": "web/wp"
